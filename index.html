@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div>
+      <h1>Form with JS</h1>
+    </div>
+    <div>
+      <input type="text" name="" id="" />
+      <script>
+        document.querySelector("input").focus();
+        console.log(document.activeElement.tagName);
+
+        document.querySelector("input").blur();
+        console.log(document.activeElement.tagName);
+      </script>
+    </div>
+  </body>
+</html>
